@@ -14,7 +14,7 @@ export default function TransactionHistory({ items }) {
       <tbody>
         {items.map(({ id, type, amount, currency }) => (
           <tr key={id}>
-            <td>{type}</td>
+            <td>{type.charAt(0).toUpperCase()}</td>
             <td>{amount}</td>
             <td>{currency}</td>
           </tr>
