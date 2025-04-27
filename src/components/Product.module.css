@@ -41,6 +41,9 @@
 
 .stats {
   display: flex;
+  margin: 0;
+  padding: 0;
+  list-style: none;
   background-color: #f3f6f9;
   border-top: 1px solid #ccc;
   color: #000000;
