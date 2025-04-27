@@ -49,9 +49,10 @@
 .stats li {
   list-style: none;
   flex: 1;
-  padding: 15px;
+  padding: 0;
   text-align: center;
   border-right: 1px solid #ccc;
+  margin: 0;
 }
 
 .stats li:last-child {
@@ -62,6 +63,7 @@
   display: block;
   font-size: 14px;
   color: #8e8e8e;
+  margin-bottom: 5px;
 }
 
 .quantity {
