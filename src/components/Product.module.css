@@ -25,18 +25,20 @@
 .username {
   font-size: 22px;
   font-weight: 700;
-  margin-bottom: 5px;
+  margin-bottom: 20px;
   color: #000000;
 }
 
 .tag {
   color: #8e8e8e;
   font-size: 16px;
+  margin-bottom: 10px;
 }
 
 .location {
   color: #b0b0b0;
   font-size: 16px;
+  margin-bottom: 10px;
 }
 
 .stats {
